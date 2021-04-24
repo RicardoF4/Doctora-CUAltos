@@ -15,17 +15,21 @@ header{
   z-index: 1;
 }
 
+.flex{
+    display: flex;
+}
+
 .estambre1{
     position: absolute;
-    right: 360px;
-    bottom: 280px;
+    right: 10px;
+    bottom: 15px;
     z-index: 3;
 }
 
 .estambre2{
     position: absolute;
     left: 5px;
-    bottom: 190px;
+    bottom: 15px;
     z-index: 3;
 }
 
@@ -51,12 +55,12 @@ nav > ul{
         width: 100px;
         padding-top: 10px;
         padding-bottom: 10px;
+        text-align: center;
     }
 
     nav>ul>li>a{
         text-decoration: none;
         color: #555;
-        padding: 10px;
     }
 
     nav>ul>li:hover {
@@ -69,10 +73,6 @@ nav > ul{
         border-radius: 10px;
     }
 
-
-.flex{
-    display: flex;
-}
 
 #color {
     width: 100vw;
@@ -131,20 +131,6 @@ box-shadow: 5px 5px 5px #2F3540;
 
 .inline{
     display: inline-block;
-}
-
-
-.carrusel{
-    position: fixed;
-}
-img{
-    position: absolute;
-}
-
-.carousel-item img{
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
 }
 
 .imgbox{
