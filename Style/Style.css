@@ -1,0 +1,156 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+header{
+    padding: 10px 16px;
+    color: #555;
+    width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.estambre1{
+    position: absolute;
+    right: 360px;
+    bottom: 280px;
+    z-index: 3;
+}
+
+.estambre2{
+    position: absolute;
+    left: 5px;
+    bottom: 190px;
+    z-index: 3;
+}
+
+.estambre3{
+    position: absolute;
+    left: 5px;
+    top: 65px;
+    z-index: 3;
+}
+
+nav{
+    position: absolute;
+    right: 0px;
+}
+
+
+nav > ul{
+    list-style: none;
+    }
+
+    nav>ul>li{
+        display: inline-block;
+        width: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    nav>ul>li>a{
+        text-decoration: none;
+        color: #555;
+        padding: 10px;
+    }
+
+    nav>ul>li:hover {
+        background-color: whitesmoke;
+        color: red;
+        font-weight: bolder;
+        /*Tipo de cursor*/
+        cursor: pointer;
+        /*Esquinas*/
+        border-radius: 10px;
+    }
+
+
+.flex{
+    display: flex;
+}
+
+#color {
+    width: 100vw;
+    height: 100vh;
+    color: #D9D9D9;
+    background-color: rgba(108, 128, 140, 0.22);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 50vw;
+    margin: auto;
+
+}
+
+#boton{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+#boton a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 45px;
+    padding-left: 45px;
+    width: 30px;
+    background: linear-gradient(180deg, #6F2C8D 0%, #EB2177 100%);
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 2s;
+}
+#boton a:hover{
+background: linear-gradient(180deg, #DCD7D4 0%, #167AD0 100%);
+box-shadow: 5px 5px 5px #2F3540;
+}
+
+.textoG{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.textoP{
+    margin-right: 25px auto;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.inline{
+    display: inline-block;
+}
+
+
+.carrusel{
+    position: fixed;
+}
+img{
+    position: absolute;
+}
+
+.carousel-item img{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.imgbox{
+    width: 100%;
+}
+
+.ejemplo{
+    height: 1000px;
+}
