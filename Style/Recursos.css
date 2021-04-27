@@ -15,47 +15,48 @@ body{
     background-size: cover;
 
 }
-.todotext{
-    padding-top: 150px;
+
+header{
+    padding: 10px 16px;
+    color: #555;
     width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.flex{
+    display: flex;
+}
+
+nav{
     position: absolute;
-    bottom: 300px;
-    text-align: center;
-    font-size:22px;
-    color: #163840;
-    
+    right: 30px;
 }
 
 
-
-
-
-.texto2{
-    padding-top: 100px;
-    width: 100%;
-    position: absolute;
-    bottom: 10px;
-    text-align: center;
-    font-size:20px;
-    
+nav > ul{
+    list-style: none;
 }
 
-#boton2{
+nav>ul>li{
+    display: inline-block;
+    width: 100px;
     padding-top: 10px;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
-#boton2 a {
-    padding: 15px;
-    width: 7%;
-    background:#BF726B ;
-    border-radius: 30px;
+nav>ul>li>a{
     text-decoration: none;
-    color: #163840;
- transition: all 2s;
+    color: #555;
 }
 
-#boton2 a:hover{
-background:#F2BBAE ;
-box-shadow: 5px 5px 5px #2F3540;
+nav>ul>li:hover {
+    background-color: whitesmoke;
+    color: red;
+    font-weight: bolder;
+    /*Tipo de cursor*/
+    cursor: pointer;
+    /*Esquinas*/
+    border-radius: 10px;
 }
