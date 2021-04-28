@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url('imagenes/fondo.png');
+    background-image: url(../Imagenes/fondo.png);
     background-repeat: no-repeat;
     background-position: center ;
     background-attachment: fixed;
@@ -20,8 +20,8 @@ header{
     padding: 10px 16px;
     color: #555;
     width: 100%;
-  position: fixed;
-  z-index: 1;
+    position: fixed;
+    z-index: 1;
 }
 
 .flex{
@@ -82,7 +82,6 @@ nav>ul>li:hover {
 .contenedor{
     float: left;
     width: 33.33%;
-    padding: 5px;
     text-align: center;
 }
 
