@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url(../Imagenes/3.png);
+    background-image: url('imagenes/fondo.png');
     background-repeat: no-repeat;
     background-position: center ;
     background-attachment: fixed;
@@ -59,4 +59,33 @@ nav>ul>li:hover {
     cursor: pointer;
     /*Esquinas*/
     border-radius: 10px;
+}
+
+.titulo{
+    padding-top: 150px;
+    padding-left: 80px;
+}
+
+.desc{
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 100px;
+  }
+  
+
+.contenedor{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+
+img{
+    width: 500px;
 }
