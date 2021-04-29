@@ -24,6 +24,16 @@ header{
     z-index: 1;
 }
 
+footer{
+    color: #ff7683;
+    background-color: #ff7683;
+  }
+
+.footers{
+   color: #ff7683;
+    background-color: #ff7683;
+  }
+
 .flex{
     display: flex;
 }
