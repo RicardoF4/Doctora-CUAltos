@@ -11,23 +11,12 @@ footer{
     font-size: 36pt !important;
     margin-top: 225px;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     width: 100%;
     float: left;
     background-color: #167AD0;
     color:white;
     box-shadow: 0 3px 8px black;
-}
-
-.textoservicios{
-    font-size: 50px;
-    color: #167AD0;
-    
-}
-.integrantes{
-    width: 100%;
-    text-align: center;
-    color:white;
 }
 
 body{
@@ -49,6 +38,16 @@ header{
 
 
 
+.textochat{
+    font-size: 50px;
+    color: #167AD0;
+    
+}
+
+.footers{
+   color: #ff7683;
+    background-color: #ff7683;
+  }
 
 .flex{
     display: flex;
@@ -86,8 +85,6 @@ nav>ul>li:hover {
     /*Esquinas*/
     border-radius: 10px;
 }
-
-
 
 .titulo{
     padding-top: 150px;

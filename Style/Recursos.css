@@ -24,6 +24,23 @@ header{
     z-index: 1;
 }
 
+footer{
+    font-size: 36pt !important;
+    margin-top: 225px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    background-color: #167AD0;
+    color:white;
+    box-shadow: 0 3px 8px black;
+}
+
+.textorecursosd{
+    font-size: 50px;
+    color: #167AD0;
+    
+}
 .flex{
     display: flex;
 }
