@@ -18,7 +18,17 @@ footer{
     color:white;
     box-shadow: 0 3px 8px black;
 }
+.paginasweb{
+    text-align: center;
+   
+    
+}
 
+.descripcionserv{
+    text-align: center;
+   
+    
+}
 .textoservicios{
     font-size: 50px;
     color: #167AD0;
@@ -28,6 +38,13 @@ footer{
     width: 100%;
     text-align: center;
     color:white;
+}
+
+.seccionservicios{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 body{
