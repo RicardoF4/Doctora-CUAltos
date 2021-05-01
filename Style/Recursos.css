@@ -134,6 +134,7 @@ footer p{
     font-size: 15px;
 }
 
+/*Cuadro que se muestra delante de la imagen*/
 .overlay{
     position: absolute;
     margin-left: auto;
