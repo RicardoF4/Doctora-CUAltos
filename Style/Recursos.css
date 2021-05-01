@@ -17,18 +17,16 @@ body{
 }
 
 header{
-    padding: 10px 16px;
     color: #555;
     width: 100%;
     position: fixed;
+    top: 0;
     z-index: 1;
 }
 
 footer{
-    font-size: 36pt !important;
-    margin-top: 225px;
+    margin-top: 200px;
     padding: 20px;
-    text-align: center;
     width: 100%;
     float: left;
     background-color: #167AD0;
@@ -36,11 +34,24 @@ footer{
     box-shadow: 0 3px 8px black;
 }
 
+.btnSup{
+    padding-top: 10px;
+    background-color: white;
+    right: 0;
+    border-radius: 0px 0px 0px 20px;
+}
+
 .textorecursosd{
     font-size: 50px;
     color: #167AD0;
     
 }
+
+.imgTit{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
 .flex{
     display: flex;
 }
@@ -89,19 +100,57 @@ nav>ul>li:hover {
 }
 
 .row {
-    content: "";
-    clear: both;
+    width: 100%;
     display: table;
     margin-top: 100px;
+    text-align: center;
   }
   
 
 .contenedor{
+    position: relative;
     float: left;
     width: 33.33%;
-    text-align: center;
+    
 }
 
 img{
     width: 500px;
+    border-radius: 7px;
+    box-shadow: -5px 5px 15px -1px black;
 }
+
+footer .row{
+    margin-top: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
+footer .contenedor{
+    padding-left: 11vw;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+.overlay{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: black;
+    height: 282px;
+    width: 500px;
+    opacity: 0;
+    border-radius: 7px;
+    transition: .7s ease;
+    background-color: #008CBA;
+}
+
+.contenedor:hover .overlay {
+    opacity: 1;
+  }
