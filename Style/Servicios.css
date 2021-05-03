@@ -8,10 +8,8 @@
 }
 
 footer{
-    font-size: 36pt !important;
-    margin-top: 225px;
+    margin-top: 200px;
     padding: 20px;
-    text-align: left;
     width: 100%;
     float: left;
     background-color: #167AD0;
@@ -29,6 +27,35 @@ footer{
    
     
 }
+
+.row {
+    width: 100%;
+    display: table;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+
+.contenedor{
+    position: relative;
+    float: left;
+    width: 33.33%;
+    
+}
+
+footer .row{
+    margin-top: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
+footer .contenedor{
+    padding-left: 11vw;
+}
+
+footer p{
+    font-size: 15px;
+}
 .textoservicios{
     font-size: 50px;
     color: #167AD0;
@@ -45,6 +72,10 @@ footer{
     border-radius: 10px;
     margin-left: 35px;
     margin-right: 35px;
+}
+
+.paginaoficial{
+    background-color: #DCD7D4;
 }
 
 body{
@@ -132,4 +163,45 @@ nav>ul>li:hover {
 
 img{
     width: 500px;
+}
+
+.btnSup{
+    padding-top: 10px;
+    background-color: white;
+    right: 0;
+    border-radius: 0px 0px 0px 20px;
+}
+
+#botonir{
+    padding-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+#botonir a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 45px;
+    padding-left: 45px;
+    width: 30px;
+    background: linear-gradient(180deg, #6F2C8D 0%, #EB2177 100%);
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 2s;
+}
+#botonir a:hover{
+background: linear-gradient(180deg, #DCD7D4 0%, #167AD0 100%);
+box-shadow: 5px 5px 5px #2F3540;
+}
+
+.dif{
+    width: 125px
+}
+.udegs{
+    width: 200px
+}
+.salme{
+    width: 190px
 }

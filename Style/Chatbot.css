@@ -113,3 +113,36 @@ nav>ul>li:hover {
 img{
     width: 500px;
 }
+
+.row {
+    width: 100%;
+    display: table;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+
+.contenedor{
+    position: relative;
+    float: left;
+    width: 33.33%;
+    
+}
+
+footer .row{
+    margin-top: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
+footer .contenedor{
+    padding-left: 11vw;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+.chatbot{
+    width: 190px
+}
