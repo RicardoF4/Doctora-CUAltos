@@ -158,6 +158,12 @@ footer p{
     font-size: xx-large;
 }
 
+.overlay p{
+    position: absolute;
+    bottom: 38%;
+    left: 21%;
+}
+
 .contenedor:hover .overlay {
     opacity: 0.5;
   }

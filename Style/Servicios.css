@@ -9,7 +9,6 @@
 
 footer{
     margin-top: 200px;
-    padding: 20px;
     width: 100%;
     float: left;
     background-color: #167AD0;
@@ -51,6 +50,7 @@ footer .row{
 
 footer .contenedor{
     padding-left: 11vw;
+    text-align: left;
 }
 
 footer p{
