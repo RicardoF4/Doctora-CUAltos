@@ -72,11 +72,20 @@ footer p{
     border-radius: 10px;
     margin-left: 35px;
     margin-right: 35px;
+    
 }
 
 .paginaoficial{
     background-color: #DCD7D4;
+    width: 100%;
+    display: flex;
 }
+
+.paginaoficial2{
+    width: 100%;
+    display: flex;
+}
+
 
 body{
     background-image: url(../Imagenes/fondo.png);
@@ -165,6 +174,21 @@ img{
     width: 500px;
 }
 
+.logo{
+    width: 20%;
+    text-align: center;
+}
+
+.btn{
+    width: 30%;
+}
+
+.nom{
+    padding-left: 1%;
+    width: 50%;
+    margin: auto;
+}
+
 .btnSup{
     padding-top: 10px;
     background-color: white;
@@ -173,8 +197,10 @@ img{
 }
 
 #botonir{
-    padding-top: 10px;
+    padding-top: 25px;
     margin-bottom: 20px;
+    right: 0;
+    
     
 }
 
