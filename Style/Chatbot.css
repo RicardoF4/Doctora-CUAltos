@@ -148,3 +148,21 @@ footer p{
 .chatbot{
     width: 110px
 }
+
+.chatbotsection{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+ 
+    
+}
+
+.marca{
+    width: 150px;
+   margin-left: 850px;
+}
+
+.chatbotadrianlalo{
+    text-align: center;
+}
