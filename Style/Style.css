@@ -11,8 +11,8 @@ header{
     padding: 10px 16px;
     color: #555;
     width: 100%;
-  position: fixed;
-  z-index: 1;
+    position: fixed;
+    z-index: 1;
 }
 
 .flex{
@@ -26,6 +26,10 @@ header{
     z-index: 3;
 }
 
+.estambre1 img{
+    width: 350px;
+}
+
 .estambre2{
     position: absolute;
     left: 5px;
@@ -33,11 +37,19 @@ header{
     z-index: 3;
 }
 
+.estambre2 img{
+    width: 180px;
+}
+
 .estambre3{
     position: absolute;
     left: 5px;
     top: 65px;
     z-index: 3;
+}
+
+.estambre3 img{
+    width: 250px;
 }
 
 nav{
@@ -122,6 +134,13 @@ box-shadow: 5px 5px 5px #2F3540;
     font-weight: bold;
 }
 
+.contenedor{
+    position: relative;
+    float: left;
+    width: 33.33%;
+    
+}
+
 .textoP{
     margin-right: 25px auto;
     font-size: 25px;
@@ -133,10 +152,82 @@ box-shadow: 5px 5px 5px #2F3540;
     display: inline-block;
 }
 
-.imgbox{
-    width: 100%;
+.carousel {
+    height:100%;
+  }
+
+main{
+    height: 100vh;
 }
 
-.ejemplo{
-    height: 1000px;
+.carousel-inner img{
+    height: 100%;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+@media only screen and (max-width: 411px){
+    .carousel {
+        width: 1050px;
+        left: -380px;
+    }
+
+    body{
+        overflow: hidden;
+    }
+
+    h1{
+        font-size: 20px !important;
+    }
+
+    .estambre1 img{
+        width: 150px;
+    }
+    
+    .estambre2 img{
+        width: 90px;
+    }
+    
+    .estambre3 img{
+        width: 90px;
+    }
+
+    .textoG{
+        font-size: 25px;
+    }
+
+    .textoP{
+        font-size: 15px;
+    }
+
+    .texto{
+        top: 30%;
+        left: 5%;
+        width: 100%;
+    
+    }
+
+    #boton{
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #boton{
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #boton a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 6px;
+        padding-left: 6px;
+        font-size: 15px;
+    }
 }
