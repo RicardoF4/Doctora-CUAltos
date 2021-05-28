@@ -8,7 +8,6 @@
 }
 
 header{
-    padding: 10px 16px;
     color: #555;
     width: 100%;
     position: fixed;
@@ -50,6 +49,13 @@ header{
 
 .estambre3 img{
     width: 250px;
+}
+
+.btnSup{
+    padding-top: 10px;
+    background-color: white;
+    right: 0;
+    border-radius: 0px 0px 0px 20px;
 }
 
 nav{
@@ -176,6 +182,15 @@ main{
     .carousel {
         width: 1050px;
         left: -380px;
+    }
+
+    .btnSup{
+        visibility: hidden;
+    }
+
+    main{
+        overflow: hidden;
+        
     }
 
     body{
