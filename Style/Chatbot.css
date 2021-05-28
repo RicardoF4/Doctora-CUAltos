@@ -175,3 +175,7 @@ footer p{
 .chatbotadrianlalo{
     text-align: center;
 }
+
+footer .row a {
+    color: white;
+}
