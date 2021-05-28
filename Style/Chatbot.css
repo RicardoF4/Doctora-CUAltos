@@ -179,3 +179,8 @@ footer p{
 footer .row .contenedor a {
     color: white;
 }
+
+iframe {
+    width: 80%;
+    height: 60%;
+}
