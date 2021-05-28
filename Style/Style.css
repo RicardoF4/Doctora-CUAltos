@@ -179,7 +179,7 @@ main{
     height: 100%;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 720px){
     .carousel {
         width: 1050px;
         left: -380px;
