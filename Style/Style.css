@@ -164,6 +164,7 @@ box-shadow: 5px 5px 5px #2F3540;
 
 main{
     height: 100vh;
+    width: 100%;
 }
 
 .carousel-inner img{
@@ -178,7 +179,7 @@ main{
     height: 100%;
 }
 
-@media only screen and (max-width: 411px){
+@media only screen and (max-width: 500px){
     .carousel {
         width: 1050px;
         left: -380px;
@@ -192,13 +193,14 @@ main{
         overflow: hidden;
         
     }
+    
 
     body{
         overflow: hidden;
     }
 
     h1{
-        font-size: 20px !important;
+        font-size: 30px !important;
     }
 
     .estambre1 img{
@@ -222,9 +224,9 @@ main{
     }
 
     .texto{
-        top: 30%;
+        top: 50%;
         left: 5%;
-        width: 100%;
+        width: 80%;
     
     }
 
