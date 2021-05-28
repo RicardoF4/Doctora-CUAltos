@@ -104,9 +104,6 @@ header{
     z-index: 1;
 }
 
-
-
-
 .flex{
     display: flex;
 }
@@ -231,4 +228,86 @@ box-shadow: 5px 5px 5px #2F3540;
 }
 .salme{
     width: 190px
+}
+
+@media only screen and (max-width: 720px){
+    }
+
+    h1{
+        font-size: 30px !important;
+    }
+    
+    .btnSup{
+        visibility: hidden;
+    }
+
+    .textoservicios{
+        font-size: 40px;
+    }
+
+    .titulo{
+        padding-top: 50px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .desc{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .seccionservicios{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    footer h3{
+        font-size: 2px;
+    }
+
+    #botonir{
+        padding-top: 50%;
+        padding-bottom: 50%;
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    
+    #botonir a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 30px;
+        background: linear-gradient(180deg, #6F2C8D 0%, #EB2177 100%);
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: all 2s;
+    }
+    #botonir a:hover{
+    background: linear-gradient(180deg, #DCD7D4 0%, #167AD0 100%);
+    box-shadow: 5px 5px 5px #2F3540;
+    }
+
+    .logo{
+        width: 20%;
+        text-align: center;
+    }
+    
+    .btn{
+        width: 50%;
+    }
+    
+    .nom{
+        font-size: 14px;
+        width: 30%;
+        margin: 15px;
+    }
+
+    footer{
+        margin-top: 80px;
+    }
 }
