@@ -15,6 +15,10 @@ footer{
     color:white;
     box-shadow: 0 3px 8px black;
 }
+
+footer a {
+      color: white;
+}   
 .paginasweb{
     text-align: center;
    
