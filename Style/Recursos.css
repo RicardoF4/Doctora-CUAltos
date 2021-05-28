@@ -115,6 +115,10 @@ nav>ul>li:hover {
     margin-top: 100px;
     text-align: center;
   }
+
+.row a {
+    color: white;
+}
   
 
 .contenedor{
