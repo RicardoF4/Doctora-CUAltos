@@ -34,7 +34,6 @@ main{
     width: 100%;
 }
 
-
 footer{
     width: 100%;
     float: left;
@@ -43,10 +42,16 @@ footer{
     box-shadow: 0 3px 8px black;
 }
 
-footer .row{
-    margin-top: 0;
-    padding-left: 0;
-    text-align: left;
+footer{
+    font-size: 36pt !important;
+    margin-top: 225px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    background-color: #167AD0;
+    color:white;
+    box-shadow: 0 3px 8px black;
 }
 
 footer .contenedor{
@@ -121,7 +126,7 @@ nav>ul>li:hover {
     position: absolute;
     left: 5px;
     bottom: 15px;
-    z-index: 3;
+    z-index: 1;
 }
 
 .estambre2 img{
@@ -132,7 +137,7 @@ nav>ul>li:hover {
     position: absolute;
     left: 5px;
     top: 65px;
-    z-index: 3;
+    z-index: 1;
 }
 
 .estambre3 img{
@@ -214,6 +219,14 @@ box-shadow: 5px 5px 5px #2F3540;
 
 @media only screen and (max-width: 720px){
 
+    footer h3{
+        font-size: 4.5vw;
+    }
+
+    footer .contenedor{
+        padding-left: 6vw !important;
+    }
+
     .header_button{
         visibility: visible;
         width: 50px;
@@ -238,8 +251,10 @@ box-shadow: 5px 5px 5px #2F3540;
         right: 0;
         z-index: 4;
         height: 100vh;
-        width: 250px;
+        width: 170px;
         background: #ffff;
+        transform: translateX(170px);
+        transition: transform 0.2s;
     }
 
     .nav_link{
@@ -249,11 +264,45 @@ box-shadow: 5px 5px 5px #2F3540;
         font-weight: bold;
         font-size: 14px;
         text-decoration: none;
-        padding: 12px, 15px;
+        padding-left: 15px;
+        height: 60px;
+        background: transform 0.3s;
     }
 
     .nav_link i{
         margin-right: 15px;
+    }
+
+    .nav_link_active{
+        color: #009578;
+        background: #eeeeee;
+    }
+
+    .nav_link:hover{
+        color: #009578;
+    }
+
+    .nav_open .nav_links{
+        transform: translateX(0);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav_overlay{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(2px);
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .nav_open .nav_overlay{
+        visibility: visible;
+        opacity: 1;
     }
 
     .carousel {
@@ -268,11 +317,6 @@ box-shadow: 5px 5px 5px #2F3540;
     main{
         overflow: hidden;
         
-    }
-    
-
-    body{
-        overflow: hidden;
     }
 
     h1{
@@ -323,4 +367,6 @@ box-shadow: 5px 5px 5px #2F3540;
         padding-left: 6px;
         font-size: 15px;
     }
+
+    
 }

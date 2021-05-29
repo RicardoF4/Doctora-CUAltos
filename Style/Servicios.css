@@ -16,7 +16,6 @@
 .row {
     width: 100%;
     display: table;
-    margin-top: 100px;
     text-align: center;
   }
   
@@ -72,7 +71,6 @@
     content: "";
     clear: both;
     display: table;
-    margin-top: 100px;
   }
   
 
@@ -148,6 +146,11 @@ box-shadow: 5px 5px 5px #2F3540;
         font-size: 40px;
     }
 
+    .descripcionserv{
+        text-align: center;
+        font-size: 20px;
+    }
+
     .titulo{
         padding-top: 50px;
         padding-left: 0px;
@@ -158,7 +161,6 @@ box-shadow: 5px 5px 5px #2F3540;
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 15px;
     }
 
     .seccionservicios{
@@ -166,9 +168,7 @@ box-shadow: 5px 5px 5px #2F3540;
         margin-right: 10px;
     }
 
-    footer h3{
-        font-size: 2px;
-    }
+    
 
     #botonir{
         padding-top: 50%;
