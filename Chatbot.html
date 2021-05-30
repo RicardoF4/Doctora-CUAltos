@@ -1,31 +1,33 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script src="js/main.js"></script>
-        <link rel="stylesheet" href="Style/Style.css">
-        <link rel="stylesheet" href="Style/Chatbot.css">
-        <title>Chatbot</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="js/bootstrap.min.js"></script>
-        <title>Doctora CUALTOS</title>
-        <link rel="shortcut icon" href="imagenes/DraCualtos.png"/>
+<html lang="en">
 
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="stylesheet" href="Style/Chatbot.css">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Doctora CUALTOS</title>
+    <link rel="shortcut icon" href="imagenes/DraCualtos.png" />
 
-    <body>
-        
+</head>
+
+<body>
+
+    <header>
         <header>
-            <header>
-                <div class="flex">
+            <div class="flex">
                 <h1>Doctora CUALTOS</h1>
-        
+
                 <div class="relleno"></div>
-                
-                <nav class="btnSup"> 
+
+                <nav class="btnSup">
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="Servicios.html">Servicios</a></li>
@@ -35,118 +37,90 @@
 
                 <button class="header_button" id="btnNav" type="button">
                     <i class="material-icons">menu</i>
-                 </button>
-        
-                </div>
-            </header>
+                </button>
+
+            </div>
         </header>
-        
-        <nav class="nav">
-            <div class="nav_links">
-               <a href="index.html" class="nav_link">
-                  <i class="material-icons">home</i>
-                  Inicio
-               </a>
-      
-               <a href="#" class="nav_link nav_link_active">
-                  <i class="material-icons">smart_toy</i>
-                  ChatBot
-               </a>
-      
-               <a href="Servicios.html" class="nav_link">
-                  <i class="material-icons">info</i>
-                  Servicios
-               </a>
-      
-               <a href="Recursos.html" class="nav_link">
-                  <i class="material-icons">article</i>
-                  Recursos
-               </a>
+    </header>
+
+    <nav class="nav">
+        <div class="nav_links">
+            <a href="index.html" class="nav_link">
+                <i class="material-icons">home</i>
+                Inicio
+            </a>
+
+            <a href="#" class="nav_link nav_link_active">
+                <i class="material-icons">smart_toy</i>
+                ChatBot
+            </a>
+
+            <a href="Servicios.html" class="nav_link">
+                <i class="material-icons">info</i>
+                Servicios
+            </a>
+
+            <a href="Recursos.html" class="nav_link">
+                <i class="material-icons">article</i>
+                Recursos
+            </a>
+        </div>
+        <div class="nav_overlay"></div>
+    </nav>
+
+    <main>
+        <div class="titulo">
+            <b>
+                <p class="textochat">CHATBOT <img class="chatbot" src="Imagenes/chatbot.png" alt="Chat Bot"></p>
+            </b>
+        </div>
+        </div>
+        <div class="desc">
+            <p class="descripcionserv"> Doctora CUAltos ofrece un chatbot con respuestas y soluciones para
+                problemas que pueden presentarse en el día a día y generen estrés
+                dentro de los usuarios que sufran de inestabilidad emocional o que se encuentren
+                en un duelo severo a causa de algún familiar fallecido por causa de la COVID-19</p>
+        </div>
+
+            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger intent="WELCOME" chat-title="DoctoraCUAltos" agent-id="48217012-51cd-4d7b-815a-3d16a6c4aef2"
+                language-code="es"></df-messenger>
+    </main>
+
+    <footer>
+
+        <div class="row">
+            <div class="contenedor">
+                <h3>Doctora CUALTOS</h3>
+                <p>Servicios </p>
+                <p>Recursos </p>
+                <p>Chat Bot </p>
+                <a href="politica.pdf">
+                    <p>Política de privacidad</p>
+                </a>
+                <p>
+
+                </p>
             </div>
-            <div class="nav_overlay"></div>
-         </nav>
 
-        <main>
-                <div class="titulo">
-                    <b> <p class="textochat">CHATBOT    <img class="chatbot" src="Imagenes/chatbot.png" alt="Chat Bot"></p> </b>
-                </div>
-                </div>
-                <div class="desc">
-                    <p class="descripcionserv"> Doctora CUAltos ofrece un chatbot con respuestas y soluciones para
-                        problemas que pueden presentarse en el día a día y generen estrés
-                        dentro de los usuarios que sufran de inestabilidad emocional o que se encuentren
-                        en un duelo severo a causa de algún familiar fallecido por causa de la COVID-19</p>
-                </div>
-
-                
-                <section class ="chatbotsection">
-                   
-                    <article >
-                        <div  class="chatbotadrianlalo"> 
-                            <!-- Ya no le muevan a la verga! -->
-                            <iframe
-                                allow="microphone;"
-                                width="900"
-                                height="450"
-                                src="https://console.dialogflow.com/api-client/demo/embedded/48217012-51cd-4d7b-815a-3d16a6c4aef2">
-                            </iframe>
-                        </div>
-                        <div class="logo">
-                            
-                        </div>
-                       
-                                   
-                    </article>
-
-                    <article>
-                       
-                        
-                    </article>
-
-                    <article >
-                        
-                        
-                    </article>
-                    
-                </section>
-                
-
-                
-        </main>
-
-        <footer>
-            
-            <div class="row">
-                <div class="contenedor">
-                    <h3>Doctora CUALTOS</h3>
-                    <p>Servicios </p>
-                    <p>Recursos </p>
-                    <p>Chat Bot </p>
-                    <a href="politica.pdf">
-                        <p>Política de privacidad</p>
-                    </a>
-                    <p>
-
-                    </p>
-                </div>
-
-                <div class="contenedor">
-                    <h3>Integrantes</h3>
-                    <p>Christian Baruch Leon Hernandez </p>
-                    <p>Marco Antonio Ornelas Sandoval </p>
-                    <P>Ricardo Fernandez Martinez</P>
-                    <p>Eduardo Diaz Cabrera</p>
-                    <p>Eric  Jesus Lozano Diaz</p>
-                    <p>Adrian Cornejo</p>
-                </div>
-
-                <div class="contenedor">
-                    <h3>Patrocinadores</h3>
-                    <p>Coca Cola </p>
-                    <p>Gobierno Tepatitlán </p>
-                </div>
+            <div class="contenedor">
+                <h3>Integrantes</h3>
+                <p>Christian Baruch Leon Hernandez </p>
+                <p>Marco Antonio Ornelas Sandoval </p>
+                <P>Ricardo Fernandez Martinez</P>
+                <p>Eduardo Diaz Cabrera</p>
+                <p>Eric Jesus Lozano Diaz</p>
+                <p>Adrian Cornejo</p>
             </div>
-       
-        </footer>  
-    </body>
+
+            <div class="contenedor">
+                <h3>Patrocinadores</h3>
+                <p>Coca Cola </p>
+                <p>Gobierno Tepatitlán </p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
 </html>
