@@ -63,6 +63,12 @@ footer p{
     font-size: 15px;
 }
 
+footer a{
+    display: block;
+    font-size: 15px;
+    text-decoration: none !important;
+}
+
 nav{
     position: absolute;
     right: 0px;
@@ -215,6 +221,18 @@ box-shadow: 5px 5px 5px #2F3540;
     width: 500px;
 }
 
+.nav_links{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 4;
+    height: 100vh;
+    width: 170px;
+    background: #ffff;
+    transform: translateX(170px);
+    transition: transform 0.2s;
+}
+
 
 /* || RESPONSIVIDAD PARA CELULARES || */
 
@@ -226,6 +244,10 @@ box-shadow: 5px 5px 5px #2F3540;
 
     footer .contenedor{
         padding-left: 6vw !important;
+    }
+
+    footer .contenedor a{
+        font-size: 10px !important;
     }
 
     .header_button{
