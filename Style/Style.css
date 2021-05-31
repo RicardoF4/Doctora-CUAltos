@@ -160,8 +160,8 @@ nav>ul>li:hover {
 #boton a {
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
     width: 30px;
     background: linear-gradient(180deg, #6F2C8D 0%, #EB2177 100%);
     border-radius: 30px;
@@ -210,6 +210,11 @@ box-shadow: 5px 5px 5px #2F3540;
 .header_button{
     visibility: hidden;
 }
+
+.botones{
+    width: 500px;
+}
+
 
 /* || RESPONSIVIDAD PARA CELULARES || */
 
@@ -362,6 +367,10 @@ box-shadow: 5px 5px 5px #2F3540;
         padding-right: 6px;
         padding-left: 6px;
         font-size: 15px;
+    }
+
+    .carousel-item{
+        height: 100%;
     }
 
     
