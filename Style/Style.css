@@ -144,6 +144,32 @@ nav>ul>li:hover {
     width: 250px;
 }
 
+.logofacebook{
+
+    position: absolute;
+    right: 3.5px;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.logofacebook img{
+    width: 100px;
+}
+
+
+
+.logoinsta{
+
+    position: absolute;
+    left: 3.5px;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.logoinsta img{
+    width: 100px;
+}
+
 .texto{
     position: absolute;
     top: 50%;
