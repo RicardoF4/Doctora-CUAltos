@@ -147,33 +147,34 @@ nav>ul>li:hover {
 }
 
 .estambre3 img{
+    position: absolute;
+    right: 0;
     width: 250px;
+}
+.logos{
+    width: 43%;
 }
 
 .logofacebook{
-
     position: absolute;
-    right: 3.5px;
-    bottom: 5px;
     z-index: 1;
+    top: 0.5vh;
+    right: 17vw;
 }
 
 .logofacebook img{
-    width: 100px;
+    width: 55px;
 }
 
-
-
 .logoinsta{
-
     position: absolute;
-    left: 3.5px;
-    bottom: 5px;
     z-index: 1;
+    top: 0.5vh;
+    right: 21vw;
 }
 
 .logoinsta img{
-    width: 100px;
+    width: 55px;
 }
 
 .texto{
@@ -259,6 +260,15 @@ box-shadow: 5px 5px 5px #2F3540;
     transition: transform 0.2s;
 }
 
+footer img{
+    width: 21px;
+}
+
+footer i,.insta {
+    margin-right: 14px;
+}
+
+
 
 /* || RESPONSIVIDAD PARA CELULARES || */
 
@@ -276,6 +286,7 @@ box-shadow: 5px 5px 5px #2F3540;
         font-size: 10px !important;
     }
 
+    
     .header_button{
         visibility: visible;
         width: 50px;
