@@ -30,33 +30,27 @@ header h1{
 }
 
 main{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
-}
-
-footer{
-    width: 100%;
-    float: left;
-    background-color: #167AD0;
-    color:white;
-    box-shadow: 0 3px 8px black;
 }
 
 footer{
     font-size: 36pt !important;
-    margin-top: 225px;
-    padding: 20px;
     text-align: center;
     width: 100%;
-    float: left;
+    bottom: 0;
+    left: 0;
+    position: relative;
     background-color: #167AD0;
     color:white;
     box-shadow: 0 3px 8px black;
+    margin-top: auto;
 }
 
 footer .contenedor{
     padding-left: 11vw;
     text-align: left;
+    
 }
 
 footer p{
@@ -204,8 +198,8 @@ nav>ul>li:hover {
     transition: all 2s;
 }
 #boton a:hover{
-background: linear-gradient(180deg, #DCD7D4 0%, #167AD0 100%);
-box-shadow: 5px 5px 5px #2F3540;
+    background: linear-gradient(180deg, #DCD7D4 0%, #167AD0 100%);
+    box-shadow: 5px 5px 5px #2F3540;
 }
 
 .textoG{
@@ -372,11 +366,6 @@ footer i,.insta {
 
     .btnSup{
         visibility: hidden;
-    }
-
-    main{
-        overflow: hidden;
-        
     }
 
     h1{

@@ -26,19 +26,9 @@ body{
 
 }
 
-footer{
-    margin-top: 200px;
-    padding: 20px;
-    width: 100%;
-    float: left;
-    background-color: #167AD0;
-    color:white;
-    box-shadow: 0 3px 8px black;
-}
-
 /*ESTILOS ESPESIFICOS A RECURSOS*/
 
-img{
+main img{
     width: 26vw;
     border-radius: 7px;
     box-shadow: -5px 5px 15px -1px black;
@@ -111,8 +101,6 @@ nav>ul>li:hover {
 
 .row {
     width: 100%;
-    display: table;
-    margin-top: 100px;
     text-align: center;
   }
 
@@ -125,21 +113,6 @@ nav>ul>li:hover {
     position: relative;
     float: left;
     width: 33.33%;
-    
-}
-
-footer .row{
-    margin-top: 0;
-    padding-left: 0;
-    text-align: left;
-}
-
-footer .contenedor{
-    padding-left: 11vw;
-}
-
-footer p{
-    font-size: 15px;
 }
 
 /*Cuadro que se muestra delante de la imagen*/
@@ -168,11 +141,42 @@ footer p{
     left: 21%;
 }
 
+.hide{
+    display: none;
+}
+
 .contenedor:hover .overlay {
     opacity: 0.5;
   }
 
-@media only screen and (max-width: 1366px){
+  @media only screen and (max-width: 720px){
 
+    .imgTit{
+        text-align: center;
+    }
 
+    .mobil{
+        text-align: center;
+    }
+
+    .cont-mobil img{
+        text-align: center;
+    }
+
+    .titulo{
+        padding-top: 50px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .desc{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+
+    .descripcionserv{
+        text-align: center;
+        font-size: 20px;
+    }
 }
