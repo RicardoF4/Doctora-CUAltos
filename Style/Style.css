@@ -267,6 +267,10 @@ footer i,.insta {
 /* || RESPONSIVIDAD PARA CELULARES || */
 
 @media only screen and (max-width: 720px){
+    
+    body{
+        overflow: hidden;
+    }
 
     footer h3{
         font-size: 4.5vw;
@@ -412,8 +416,8 @@ footer i,.insta {
     #boton a {
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-right: 6px;
-        padding-left: 6px;
+        padding-right: 20px;
+        padding-left: 20px;
         font-size: 15px;
     }
 

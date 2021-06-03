@@ -179,4 +179,7 @@ nav>ul>li:hover {
         text-align: center;
         font-size: 20px;
     }
+    body{
+        overflow: scroll;
+    }
 }
